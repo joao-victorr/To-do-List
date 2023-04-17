@@ -1,0 +1,104 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(132, 0, 255), orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text_camp {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.486);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.widget {
+    background-color: rgb(41, 41, 41);
+    border-radius: 1rem 0 1rem 0;
+    color: white;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.253);
+    
+}
+
+.widget_title {
+    text-align: center;
+    padding: .2rem;
+    width: 20rem;
+    height: auto;
+    word-break: break-all;
+    
+}
+
+.widget_text {
+    width: 20rem;
+    height: auto;
+    word-break: break-all;
+
+}
+.widget_text p {
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    padding: .5rem;
+    border-radius: 0 0 1rem 0;
+
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 20rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+button {
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    color: white;
+    background-color: rgb(85, 255, 142);
+    transition: .2s;
+}
+
+button:hover {
+    background-color: rgb(56, 185, 99);
+}
+
+strong {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+}
+
