@@ -16,10 +16,13 @@ body {
     align-items: center;
 }
 
+.modal {
+    display: none;
+}
 
-.text_camp {
+.viewList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgba(0, 0, 0, 0.486);
     align-items: center;
     justify-content: center;
@@ -27,6 +30,7 @@ body {
     padding: 2rem;
     border-radius: .5rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 
 }
 
@@ -50,24 +54,22 @@ body {
 
 .widget_title {
     text-align: center;
-    padding: .2rem;
+    padding: 3px 10px;
     width: 20rem;
-    height: auto;
+    height: 2rem;
     word-break: break-all;
+    overflow: hidden;
     
 }
 
 .widget_text {
-    width: 20rem;
-    height: auto;
-    word-break: break-all;
-
-}
-.widget_text p {
     background-color: rgb(75, 75, 75);
-    width: 100%;
-    padding: .5rem;
+    width: 20rem;
+    height: 5rem;
+    overflow: hidden;
     border-radius: 0 0 1rem 0;
+    word-break: break-all;
+    padding: 3px 10px;
 
 }
 
